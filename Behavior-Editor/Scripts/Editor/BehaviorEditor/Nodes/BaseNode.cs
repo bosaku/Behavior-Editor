@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
@@ -18,12 +16,12 @@ namespace SA.BehaviorEditor
         public bool isDuplicate;
         public string comment;
         public bool isAssigned;
-		public bool showDescription;
-		public bool isOnCurrent;
+        public bool showDescription;
+        public bool isOnCurrent;
 
         public bool collapse;
-		public bool showActions = true;
-		public bool showEnterExit = false;
+        public bool showActions = true;
+        public bool showEnterExit = false;
         [HideInInspector]
         public bool previousCollapse;
 
@@ -31,6 +29,9 @@ namespace SA.BehaviorEditor
         public StateNodeReferences stateRef;
         [SerializeField]
         public TransitionNodeReferences transRef;
+
+        public bool createActions;
+        public bool showUpdateAndFixed;
 
         public void DrawWindow()
         {
@@ -53,18 +54,18 @@ namespace SA.BehaviorEditor
     [System.Serializable]
     public class StateNodeReferences
     { 
-    //    [HideInInspector]
+        //    [HideInInspector]
         public State currentState;
         [HideInInspector]
         public State previousState;
-		public SerializedObject serializedState;
-	    public ReorderableList onFixedList;
-		public ReorderableList onUpdateList;
-		public ReorderableList onEnterList;
-		public ReorderableList onExitList;
-	}
+        public SerializedObject serializedState;
+        public ReorderableList onFixedList;
+        public ReorderableList onUpdateList;
+        public ReorderableList onEnterList;
+        public ReorderableList onExitList;
+    }
 
-	[System.Serializable]
+    [System.Serializable]
     public class TransitionNodeReferences
     {
         [HideInInspector]
