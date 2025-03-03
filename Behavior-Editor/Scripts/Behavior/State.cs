@@ -1,30 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace SA
+namespace SFIBehavior
 {
     [CreateAssetMenu]
     public class State : ScriptableObject
     {
-    	public StateActions[] onFixed;
+        public StateActions[] onFixed;
         public StateActions[] onUpdate;
         public StateActions[] onEnter;
         public StateActions[] onExit;
 
         public int idCount;
-		[SerializeField]
-        public List<Transition> transitions = new List<Transition>();
+        [SerializeField] public List<Transition> transitions = new List<Transition>();
 
         public void OnEnter(StateManager states)
         {
             ExecuteActions(states, onEnter);
         }
-	
-		public void FixedTick(StateManager states)
-		{
-			ExecuteActions(states,onFixed);
-		}
+
+        public void FixedTick(StateManager states)
+        {
+            ExecuteActions(states, onFixed);
+        }
 
         public void Tick(StateManager states)
         {
@@ -43,8 +41,24 @@ namespace SA
             {
                 if (transitions[i].disable)
                     continue;
-
-                if(transitions[i].condition.CheckCondition(states))
+////////////////////////////
+                // if (transitions[i].isMultiTransition)
+                // {
+                //    // Condition multi = transitions[i].condition;
+                //     //MultiTransition multiTransition = transitions[i] as MultiTransition;
+                //     var res =transitions[i].condition.CheckMultiCondition(states);
+                //     if (res >= 0 && res < transitions[i].targetStates.Count) 
+                //     {
+                //         states.currentState = transitions[i].targetStates[res];
+                //         OnExit(states);
+                //         states.currentState.OnEnter(states);
+                //     } else {
+                //         Debug.LogWarning("condition options are out of range or not connected");
+                //     }
+                // }
+//////////////////////////                
+                //else 
+                if (transitions[i].condition.CheckCondition(states))
                 {
                     if (transitions[i].targetState != null)
                     {
@@ -52,11 +66,12 @@ namespace SA
                         OnExit(states);
                         states.currentState.OnEnter(states);
                     }
+
                     return;
                 }
             }
         }
-        
+
         public void ExecuteActions(StateManager states, StateActions[] l)
         {
             for (int i = 0; i < l.Length; i++)
@@ -85,13 +100,13 @@ namespace SA
 
             return null;
         }
+      
 
-		public void RemoveTransition(int id)
-		{
-			Transition t = GetTransition(id);
-			if (t != null)
-				transitions.Remove(t);
-		}
-
+        public void RemoveTransition(int id)
+        {
+            Transition t = GetTransition(id);
+            if (t != null)
+                transitions.Remove(t);
+        }
     }
 }

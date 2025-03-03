@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c626afabcc5a3bd41b991d776ee93486, type: 3}
-  m_Name: TestCondition
+  m_Script: {fileID: 11500000, guid: 8cf8cf7f2dea40269e7d0c8c2b9d8819, type: 3}
+  m_Name: Multi Transition Node
   m_EditorClassIdentifier: 
-  description: 

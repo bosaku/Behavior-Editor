@@ -1,0 +1,1163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711dbd0dcc0707448ad710a82f0aa6b6, type: 3}
+  m_Name: Graph
+  m_EditorClassIdentifier: 
+  windows:
+  - id: 0
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -3121.5789
+      y: 163.51096
+      width: 199.99995
+      height: 530
+    windowTitle: InitState
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: e340de5ce0fff84438a8ed3289bb844d, type: 2}
+      previousState: {fileID: 11400000, guid: e340de5ce0fff84438a8ed3289bb844d, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 1
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -3121.5789
+      y: 163.51096
+      width: 199.99995
+      height: 530
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 1
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -2878.5823
+      y: 349.5088
+      width: 199.99995
+      height: 100
+    windowTitle: IfFadeSceneHasLoaded
+    fromNodeId: 0
+    targetNode: 2
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 5807405c6f29dff4bb7c66c4546fc027, type: 2}
+      transitionId: 4
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -2878.5823
+      y: 349.5088
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 2
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -2616.585
+      y: 171.51102
+      width: 199.99995
+      height: 480
+    windowTitle: LoadAPISceneState
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 339d33aa7cdef494fb2ef0129bea044b, type: 2}
+      previousState: {fileID: 11400000, guid: 339d33aa7cdef494fb2ef0129bea044b, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 1
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -2616.585
+      y: 171.51102
+      width: 199.99995
+      height: 480
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 3
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -2375.5657
+      y: 347.50922
+      width: 199.99995
+      height: 100
+    windowTitle: CurrentLocationManagerFound
+    fromNodeId: 2
+    targetNode: 4
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: fb0fa4f8aca6a0848bc929a4fb91c5e1, type: 2}
+      transitionId: 6
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -2375.5657
+      y: 347.50922
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 4
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -2059.5708
+      y: 300.50873
+      width: 199.99995
+      height: 150
+    windowTitle: SubNearbyPlaces
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 2e64fc7e1b75f7a499b374c22a174053, type: 2}
+      previousState: {fileID: 11400000, guid: 2e64fc7e1b75f7a499b374c22a174053, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -2059.5708
+      y: 300.50873
+      width: 199.99995
+      height: 150
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 5
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -1809.5643
+      y: 327.51
+      width: 199.99995
+      height: 100
+    windowTitle: True
+    fromNodeId: 4
+    targetNode: 6
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: c73928d54cab3b748b82754f01102601, type: 2}
+      transitionId: 7
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -1809.5643
+      y: 327.51
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 6
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -1563.568
+      y: 309.51013
+      width: 199.99995
+      height: 150
+    windowTitle: SetupGameLoop
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 8d2466cfe45cd3e46bd78a800d1922ac, type: 2}
+      previousState: {fileID: 11400000, guid: 8d2466cfe45cd3e46bd78a800d1922ac, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -1563.568
+      y: 309.51013
+      width: 199.99995
+      height: 150
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 7
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -1335.5732
+      y: 327.51
+      width: 199.99995
+      height: 100
+    windowTitle: PlayerStartPositionsFound
+    fromNodeId: 6
+    targetNode: 8
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: b6c9d12885653f14cba4e447a23ef04f, type: 2}
+      transitionId: 11
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -1335.5732
+      y: 327.51
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 8
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -1076.5645
+      y: 282.5097
+      width: 199.99995
+      height: 150
+    windowTitle: Setup
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 4d4d706b8761c8844a0ceda4be2b4dcc, type: 2}
+      previousState: {fileID: 11400000, guid: 4d4d706b8761c8844a0ceda4be2b4dcc, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -1076.5645
+      y: 282.5097
+      width: 199.99995
+      height: 150
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 9
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -821.5627
+      y: 300.50873
+      width: 199.99995
+      height: 100
+    windowTitle: CharsHaveLoaded
+    fromNodeId: 8
+    targetNode: 10
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 3db863855c270d343aeac13d3def84ed, type: 2}
+      transitionId: 5
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -821.5627
+      y: 300.50873
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 10
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -570.5649
+      y: 273.5105
+      width: 199.99995
+      height: 930
+    windowTitle: SetupTheRestOfCharacterReqsAndStart
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: cef2ab8e3201ff746941791ac4469382, type: 2}
+      previousState: {fileID: 11400000, guid: cef2ab8e3201ff746941791ac4469382, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 1
+    showUpdateAndFixed: 1
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -570.5649
+      y: 273.5105
+      width: 199.99995
+      height: 930
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 13
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -350.57498
+      y: 539.50995
+      width: 199.99995
+      height: 100
+    windowTitle: True
+    fromNodeId: 10
+    targetNode: 14
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 10d8856114ab7754aa9cbc86a8f97778, type: 2}
+      transitionId: 4
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -350.57498
+      y: 539.50995
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 14
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -70.7039
+      y: 349.5088
+      width: 199.99995
+      height: 580
+    windowTitle: MapState
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: e1d1b8c8603647445b2ef477c2321d3e, type: 2}
+      previousState: {fileID: 11400000, guid: e1d1b8c8603647445b2ef477c2321d3e, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 1
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -70.7039
+      y: 349.5088
+      width: 199.99995
+      height: 580
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 15
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 208.43292
+      y: 51.510986
+      width: 199.99995
+      height: 100
+    windowTitle: LocationConfirmedCondition
+    fromNodeId: 14
+    targetNode: 67
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: ff3f086084d901444b7049898f32bb7a, type: 2}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 208.43292
+      y: 51.510986
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 16
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 474.43475
+      y: 164.5101
+      width: 199.99995
+      height: 480
+    windowTitle: StartTransitionToPathWalk
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 3165168865338fa4bb238d8dc6af8aeb, type: 2}
+      previousState: {fileID: 11400000, guid: 3165168865338fa4bb238d8dc6af8aeb, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 1
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 474.43475
+      y: 164.5101
+      width: 199.99995
+      height: 480
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 32
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1212.633
+      y: 261.64066
+      width: 199.99995
+      height: 540
+    windowTitle: AtDestination
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: cf50fbc092708664f94896a180a30b7a, type: 2}
+      previousState: {fileID: 11400000, guid: cf50fbc092708664f94896a180a30b7a, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 1
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1212.633
+      y: 261.64066
+      width: 199.99995
+      height: 540
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 37
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 947.7892
+      y: 137.64502
+      width: 199.99995
+      height: 150
+    windowTitle: Travel
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 37f683623ade1b749bf7fa7cd17ebb1e, type: 2}
+      previousState: {fileID: 11400000, guid: 37f683623ade1b749bf7fa7cd17ebb1e, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 947.7892
+      y: 137.64502
+      width: 199.99995
+      height: 150
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 39
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1199.3207
+      y: 108.28165
+      width: 199.99995
+      height: 100
+    windowTitle: ArrivedAtLocation
+    fromNodeId: 37
+    targetNode: 32
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 164dd3fb957e77d49b8198563fd956c3, type: 2}
+      transitionId: 1
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1199.3207
+      y: 108.28165
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 67
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 221.54263
+      y: 167.79138
+      width: 199.99995
+      height: 540
+    windowTitle: FadeOut
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: b626466a28f367e4c85a07bbbbf5ce1d, type: 2}
+      previousState: {fileID: 11400000, guid: b626466a28f367e4c85a07bbbbf5ce1d, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 1
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 221.54263
+      y: 167.79138
+      width: 199.99995
+      height: 540
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 68
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 484.54395
+      y: 37.790955
+      width: 199.99995
+      height: 100
+    windowTitle: FaderFadedOut
+    fromNodeId: 67
+    targetNode: 16
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 42b9054533a88d64a9c1a1d2f5e0e377, type: 2}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 484.54395
+      y: 37.790955
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 73
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1652.8876
+      y: 262.8742
+      width: 199.99995
+      height: 100
+    windowTitle: LocIsUninhabited
+    fromNodeId: 32
+    targetNode: 83
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: bcfa769df8d3c9047bb793146f6a06a4, type: 2}
+      transitionId: 26
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1652.8876
+      y: 262.8742
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 75
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -917.9516
+      y: -165.45627
+      width: 199.99995
+      height: 390
+    windowTitle: StartCleanupFromTravel
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: b316470f9ca833648b305a251e616ca4, type: 2}
+      previousState: {fileID: 11400000, guid: b316470f9ca833648b305a251e616ca4, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -917.9516
+      y: -165.45627
+      width: 199.99995
+      height: 390
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 83
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1929.5737
+      y: 168.68005
+      width: 199.99997
+      height: 390
+    windowTitle: DisplayPlaceServices
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: b312b6a5eccb525499e46f9eee1de7f0, type: 2}
+      previousState: {fileID: 11400000, guid: b312b6a5eccb525499e46f9eee1de7f0, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1929.5737
+      y: 168.68005
+      width: 199.99997
+      height: 390
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 85
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1648.5762
+      y: 375.67993
+      width: 199.99997
+      height: 100
+    windowTitle: LocIsSafe
+    fromNodeId: 32
+    targetNode: 83
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: ff100b4191960bc40885043e188d66d8, type: 2}
+      transitionId: 27
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1648.5762
+      y: 375.67993
+      width: 199.99997
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 87
+    drawNode: {fileID: 11400000, guid: 765a518b20d9ed8449bf9d452b8f6306, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 2467.5654
+      y: 221.67969
+      width: 99.999985
+      height: 80.000015
+    windowTitle: CleanupFromTravel
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: b316470f9ca833648b305a251e616ca4, type: 2}
+      previousState: {fileID: 11400000, guid: b316470f9ca833648b305a251e616ca4, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 2467.5654
+      y: 221.67969
+      width: 99.999985
+      height: 80.000015
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 90
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 2183.577
+      y: 264.67963
+      width: 199.99997
+      height: 100
+    windowTitle: IsMapState
+    fromNodeId: 83
+    targetNode: 87
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 6bf35477af613584986d83fb48081754, type: 2}
+      transitionId: 4
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 2183.577
+      y: 264.67963
+      width: 199.99997
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 91
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 1630.5719
+      y: 519.67993
+      width: 199.99997
+      height: 100
+    windowTitle: LocIsUnknown
+    fromNodeId: 32
+    targetNode: 83
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: da8b6f4eb0cd8f741a500d9e72234b65, type: 2}
+      transitionId: 28
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 1630.5719
+      y: 519.67993
+      width: 199.99997
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 95
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: -614.31573
+      y: -108.61096
+      width: 199.99995
+      height: 100
+    windowTitle: ScreenHasFaded
+    fromNodeId: 75
+    targetNode: 14
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 222970719a1e75944b15f968616f661d, type: 2}
+      transitionId: 3
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: -614.31573
+      y: -108.61096
+      width: 199.99995
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 96
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 713.1192
+      y: 107.764984
+      width: 200.00002
+      height: 100
+    windowTitle: IsMaskCreated
+    fromNodeId: 16
+    targetNode: 97
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 6a163f3fe761efc42be71ec821dde4a7, type: 2}
+      transitionId: 6
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 713.1192
+      y: 107.764984
+      width: 200.00002
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 97
+    drawNode: {fileID: 11400000, guid: 3de6cb72c5d54a842957b3d8754294e2, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 714.82355
+      y: 231.5882
+      width: 200.00002
+      height: 990
+    windowTitle: ContinueTransitionToPath
+    fromNodeId: 0
+    targetNode: 0
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 1
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 11400000, guid: 25cdf2f09a2b27c4e8f3de5d6a62a2a8, type: 2}
+      previousState: {fileID: 11400000, guid: 25cdf2f09a2b27c4e8f3de5d6a62a2a8, type: 2}
+    transRef:
+      previousCondition: {fileID: 0}
+      transitionId: 0
+    createActions: 1
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 714.82355
+      y: 231.5882
+      width: 200.00002
+      height: 990
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  - id: 99
+    drawNode: {fileID: 11400000, guid: 02d1192eec6276044a75147866515bb8, type: 2}
+    windowRect:
+      serializedVersion: 2
+      x: 946.35266
+      y: 20.999939
+      width: 200.00002
+      height: 100
+    windowTitle: DidWeFindSmooth
+    fromNodeId: 97
+    targetNode: 37
+    isDuplicate: 0
+    comment: 
+    isAssigned: 1
+    collapse: 0
+    showActions: 1
+    showEnterExit: 0
+    previousCollapse: 0
+    stateRef:
+      inputState: {fileID: 0}
+      previousState: {fileID: 0}
+    transRef:
+      previousCondition: {fileID: 11400000, guid: 16e5fe84512d2b5488dfb35314573afd, type: 2}
+      transitionId: 1
+    createActions: 0
+    showUpdateAndFixed: 0
+    settings: {fileID: 11400000, guid: 90d462ef149a7a54e95a6b3738b88cff, type: 2}
+    scaledRect:
+      serializedVersion: 2
+      x: 946.35266
+      y: 20.999939
+      width: 200.00002
+      height: 100
+    graphZoom: 1
+    graphPan: {x: -1179.933, y: -723.6742}
+    isMultiNode: 0
+    targetNodes: 
+  idCount: 0

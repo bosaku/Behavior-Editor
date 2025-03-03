@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
-namespace SA
+namespace SFIBehavior
 {
     [System.Serializable]
     public class Transition
@@ -11,5 +9,10 @@ namespace SA
         public Condition condition;
         public State targetState;
         public bool disable;
+
+        //
+        // public bool isMultiTransition;
+        // public List<State> targetStates = new List<State>();
+        //  public MultiCondition MultiCondition;
     }
 }

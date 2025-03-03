@@ -1,14 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-namespace SA
+namespace SFIBehavior
 {
     public abstract class Condition : ScriptableObject
     {
 		public string description;
 
         public abstract bool CheckCondition(StateManager state);
+       // public abstract int CheckMultiCondition(StateManager state);
+
+        //public abstract Type GetMultiConditionInfo();
 
     }
 }
