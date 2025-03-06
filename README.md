@@ -21,10 +21,10 @@
 
 ## 🐛 **Issues / Bugs**  
 
-### [#1] xyz
-**Description**: xyz.  
-**Status**: xyz  
-**Severity**: xyz  
+### [#1] States don't run if the BehaviorEditor window isn't selected / correct StateMachine isn't pressed
+**Description**: Need to build a feature that runs through transitions even if not visible. This isn't an issue when running from an app. 
+**Status**:   
+**Severity**: medium  
 **Priority**: 🟠  
 
 
